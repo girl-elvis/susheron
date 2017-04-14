@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+/*
+Theme Name: Susanna Heron
+Theme URI: http://susannaheron.com/
+Description: custom WordPress theme for artist Susanna Heron, designed by <a href="http://o-sb.co.uk" target="_blank">O-SB Design</a>
+Author: Liz Morrison
+Author URI: http://lizbmorrison.net/
+Design: O-SB Design http://o-sb.co.uk
+Version: 1.0
+
+License: Attribution-NonCommercial-NoDerivs (CC BY-NC-ND)
+License URI: http://creativecommons.org/licenses/by-nc-nd/3.0/
+*/
+
+* { margin: 0; padding: 0; border: 0; list-style: none;}
+
+body {
+	height: 100%;
+	font-family: "minion-pro",serif;
+}
+p {
+	font-size: 100%;
+	padding-bottom: 10px !important;
+}
+
+h1 {
+	font-family: "P22 Underground", "p22-underground-sc",sans-serif;
+	text-transform: lowercase;
+	letter-spacing: 1px;
+	font-size: 15px !important;
+	padding-bottom: 5px !important;
+}
+	
+.gray {
+	color: #F06;
+}
+
+a:link, a:visited, a:active { color: #000; text-decoration: none; border: 0; }
+a:hover { color: #F06; text-decoration: none; border: 0; }
+
+.blank { 
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 9; 
+}
+.loading { 
+	position: relative;
+	width: 24px;
+	height: 24px;
+	margin: 0 auto;
+	margin-top: 25%;
+}
+
+#container {
+	width: 100%;
+	min-width: 725px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 15;
+}
+
+#home_name {
+	float: left;
+	padding: 30px;
+	font-size: 17px;
+	font-family: "P22 Underground", "p22-underground-sc",sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	z-index: 15;
+}
+#home_top_nav{
+	float: right;
+	padding: 30px;
+	font-size: 15px;
+	font-family: "P22 Underground", "p22-underground-sc",sans-serif;
+	text-transform: lowercase;
+	letter-spacing: 1px;
+	z-index: 15;
+}
+ul.left {
+	float: left;
+	width: 130px;
+	padding-right: 15px;
+}
+ul.right {
+	float: right;
+	width: 170px;
+}
+ul.left li, ul.right li {
+	margin-bottom: 1px;
+}
+#home_name, #home_top_nav {
+	color: #fff;
+}
+
+#menu-main-navigation{width: 350px; float: right;font-family: "P22 Underground", "p22-underground-sc",sans-serif;}
+#menu-main-navigation li {width: 170px; float: left;font-family: "P22 Underground", "p22-underground-sc",sans-serif;}

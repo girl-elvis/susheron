@@ -1,0 +1,901 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"entr",
+				"entry-content\t(blog.item)"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"uk-hi",
+				"uk-hidden-large \tUIkit class"
+			],
+			[
+				"spa",
+				"spain\t(paths.js)"
+			],
+			[
+				"de",
+				"denmark\t(paths.js)"
+			],
+			[
+				"sdg",
+				"sdg-sageuikit\t(map-init.js)"
+			],
+			[
+				"bran",
+				"brand-maroon"
+			],
+			[
+				"ex",
+				"extend"
+			],
+			[
+				"padd",
+				"padding-left\t(_header.scss)"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"uk-overlay",
+				"uk-overlay-panel"
+			],
+			[
+				"text",
+				"text-transform\t(_header.scss)"
+			],
+			[
+				"uk-gr",
+				"uk-grid-width-1-2 \tUIkit class"
+			],
+			[
+				"find-tools",
+				"find-tools-by-goal\t(content-page.php)"
+			],
+			[
+				"uk-grid-wi",
+				"uk-grid-width-1-5 \tUIkit class"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"uk-blo",
+				"uk-block-large \tUIkit class"
+			],
+			[
+				"uk-icon-list",
+				"uk-icon-list-ol \tUIkit class"
+			],
+			[
+				"uk-icon",
+				"uk-icon-plane \tUIkit class"
+			],
+			[
+				"uk-wi",
+				"uk-width-1-1"
+			],
+			[
+				"uk-width-s",
+				"uk-width-small-1-2 \tUIkit class"
+			],
+			[
+				"uk-w",
+				"uk-width-1-1 \tUIkit class"
+			],
+			[
+				"uk-text-c",
+				"uk-text-center \tUIkit class"
+			],
+			[
+				"uk-g",
+				"uk-grid-width-1-3 \tUIkit class"
+			],
+			[
+				"sidebar",
+				"sidebar-primary\t(setup.php)"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"is",
+				"is_page\t(setup.php)"
+			],
+			[
+				"e",
+				"eighteenpt"
+			],
+			[
+				"uk-text",
+				"uk-text-large \tUIkit class"
+			],
+			[
+				"fon",
+				"font-family\t(_variables.scss)"
+			],
+			[
+				"uk-flip",
+				"uk-navbar-flip \tUIkit class"
+			],
+			[
+				"uk-float",
+				"uk-float-right \tUIkit class"
+			],
+			[
+				"uk-align",
+				"uk-align-right \tUIkit class"
+			],
+			[
+				"uk-button",
+				"uk-button-primary\t(front-page.php)"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"brand",
+				"brand-primary"
+			],
+			[
+				"block",
+				"blockquote"
+			],
+			[
+				"nav",
+				"nav-social\t(header.php)"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "home.php",
+			"settings":
+			{
+				"buffer_size": 4441,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 177.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 521.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/private/var/folders/_l/jgjjp0ps507_mhwyh8xqtn300000gp/T/Cleanup At Startup/54C83D68-ACAE-4BBD-ACF1-A65A2530D134/header.region",
+		"/Users/elvis/Sites/filippo/template/two-sidebars.region",
+		"/Users/elvis/Sites/jasia-toolkit/wp-content/themes/sdg-sageuikit/dist/scripts/main.js",
+		"/Users/elvis/Sites/jasia-toolkit/wp-content/themes/sdg-sageuikit/assets/scripts/map-init.js",
+		"/Users/elvis/Sites/jasia-toolkit/wp-content/themes/sdg-sageuikit/assets/scripts/xml/settings.xml",
+		"/Users/elvis/Sites/jasia-toolkit/wp-content/themes/sdg-sageuikit/assets/manifest.json",
+		"/Users/elvis/Sites/jasia-toolkit/wp-content/themes/sdg-sageuikit/gulpfile.js",
+		"/Users/elvis/Sites/jasia-toolkit/wp-content/themes/sdg-sageuikit/assets/styles/common/_global.scss",
+		"/Users/elvis/Sites/jasia-toolkit/wp-content/themes/sdg-sageuikit/dist/scripts/map.js",
+		"/Users/elvis/Sites/jasia-toolkit/wp-content/themes/sdg-sageuikit/assets/scripts/init.js",
+		"/Users/elvis/Sites/jasia-toolkit/wp-content/themes/sdg-sageuikit/lib/titles.php",
+		"/Users/elvis/Sites/jasia-toolkit/wp-content/themes/sdg-sageuikit/bower_components/uikit/scss/core/navbar.scss",
+		"/Users/elvis/Sites/jasia-toolkit/wp-content/themes/sdg-sageuikit/bower_components/uikit/scss/core/base.scss",
+		"/Users/elvis/Sites/jasia-toolkit/wp-content/themes/sdg-sageuikit/page.php",
+		"/Users/elvis/Sites/jasia-toolkit/wp-content/themes/sdg-sageuikit/lib/setup.php",
+		"/Users/elvis/Sites/jasia-toolkit/wp-content/themes/sdg-sageuikit/templates/content-page copy.php",
+		"/Users/elvis/Sites/jasia-toolkit/wp-content/themes/sdg-sageuikit/templates/footer.php",
+		"/Users/elvis/Sites/jasia-toolkit/wp-content/mu-plugins/cpt-tools.php",
+		"/Users/elvis/Sites/jasia-toolkit/wp-content/themes/sdg-sageuikit/functions.php",
+		"/Users/elvis/Sites/jasia-toolkit/wp-content/themes/sdg-sageuikit/assets/styles/layouts/_footer.scss",
+		"/Users/elvis/Sites/jasia-toolkit/wp-content/themes/sdg-sageuikit/archive.php",
+		"/Users/elvis/Sites/jasia-toolkit/wp-content/themes/sdg-sageuikit/templates/content.php",
+		"/Users/elvis/Sites/jasia-toolkit/wp-content/themes/sdg-sageuikit/bower_components/uikit/scss/core/table.scss",
+		"/Users/elvis/Sites/jasia-toolkit/wp-content/themes/sdg-sageuikit/templates/content-single.php",
+		"/Users/elvis/Sites/jasia-toolkit/wp-content/themes/sdg-sageuikit/templates/content-page.php",
+		"/Users/elvis/Sites/jasia-toolkit/wp-content/themes/sdg-sageuikit/templates/page-header.php",
+		"/Users/elvis/Sites/jasia-toolkit/wp-content/themes/sdg-sageuikit/templates/part-filters.php",
+		"/Users/elvis/Sites/jasia-toolkit/wp-content/themes/sdg-sageuikit/templates/part-homebanner.php",
+		"/Users/elvis/Sites/jasia-toolkit/wp-content/themes/sdg-sageuikit/base.php",
+		"/Users/elvis/Sites/jasia-toolkit/wp-content/themes/sdg-sageuikit/assets/styles/main.scss",
+		"/Users/elvis/Sites/jasia-toolkit/wp-content/themes/sdg-sageuikit/lib/uikit-menu-walker.php",
+		"/Users/elvis/Sites/jasia-toolkit/wp-content/themes/sdg-sageuikit/templates/part-example.php",
+		"/Users/elvis/Sites/jasia-toolkit/wp-content/themes/sdg-sageuikit/bower_components/uikit/scss/core/nav.scss",
+		"/Users/elvis/Sites/jasia-toolkit/wp-content/themes/sdg-sageuikit/templates/entry-meta.php",
+		"/Users/elvis/Sites/jasia-toolkit/wp-content/themes/sdg-sageuikit/search.php",
+		"/Users/elvis/Sites/jasia-toolkit/wp-content/themes/sdg-sageuikit/search-filter/results.php",
+		"/Users/elvis/Sites/jasia-toolkit/wp-content/themes/sdg-sageuikit/templates/content-search.php",
+		"/Users/elvis/Sites/jasia-toolkit/wp-content/themes/sdg-sageuikit/searchform.php",
+		"/Users/elvis/Sites/jasia-toolkit/wp-content/themes/sdg-sageuikit/bower.json",
+		"/Users/elvis/Sites/jasia-toolkit/wp-content/themes/sdg-sageuikit/style.css",
+		"/private/var/folders/_l/jgjjp0ps507_mhwyh8xqtn300000gp/T/Cleanup At Startup/6F5B25D2-394E-4145-815F-7E4D73C57F8A/wp-config.php",
+		"/Users/elvis/Sites/HOPE/rabbisacks-site/wp-content/themes/rabbisacks/assets/styles/common/_variables.scss",
+		"/Users/elvis/Sites/HOPE/rabbisacks-site/wp-content/themes/rabbisacks/templates/footer.php",
+		"/Users/elvis/Sites/HOPE/rabbisacks-site/wp-content/themes/rabbisacks/assets/styles/components/_forms.scss",
+		"/Users/elvis/Sites/HOPE/rabbisacks-site/wp-content/themes/rabbisacks/search.php",
+		"/Users/elvis/Sites/HOPE/rabbisacks-site/wp-content/themes/rabbisacks/templates/header.php",
+		"/Users/elvis/Sites/HOPE/rabbisacks-site/wp-content/themes/rabbisacks/assets/styles/common/_media-query.scss",
+		"/Users/elvis/Sites/HOPE/rabbisacks-site/wp-content/themes/rabbisacks/assets/styles/layouts/_pages.scss",
+		"/Users/elvis/Sites/HOPE/rabbisacks-site/wp-content/themes/rabbisacks/assets/styles/common/_global.scss",
+		"/Users/elvis/Sites/HOPE/rabbisacks-site/wp-content/themes/rabbisacks/page.php",
+		"/Users/elvis/Sites/HOPE/rabbisacks-site/wp-content/themes/rabbisacks/lib/titles.php",
+		"/Users/elvis/Sites/HOPE/rabbisacks-site/wp-content/themes/rabbisacks/templates/content-writing.php",
+		"/Users/elvis/Sites/HOPE/rabbisacks-site/wp-content/themes/rabbisacks/templates/content-video.php",
+		"/Users/elvis/Sites/HOPE/rabbisacks-site/wp-content/themes/rabbisacks/templates/content-conversation.php",
+		"/Users/elvis/Sites/HOPE/rabbisacks-site/wp-content/themes/rabbisacks/templates/content-single-books.php",
+		"/Users/elvis/Sites/HOPE/rabbisacks-site/wp-content/themes/rabbisacks/templates/content-books.php",
+		"/Users/elvis/Sites/HOPE/rabbisacks-site/wp-content/themes/rabbisacks/page-landing-video.php",
+		"/Users/elvis/Sites/HOPE/rabbisacks-site/wp-content/themes/rabbisacks/templates/content-audio.php",
+		"/Users/elvis/Sites/HOPE/rabbisacks-site/wp-content/themes/rabbisacks/templates/content.php",
+		"/Users/elvis/Sites/HOPE/rabbisacks-site/wp-content/themes/rabbisacks/templates/content-single.php",
+		"/Users/elvis/Sites/HOPE/rabbisacks-site/wp-content/themes/rabbisacks/front-page.php",
+		"/Users/elvis/Sites/HOPE/rabbisacks-site/wp-content/themes/rabbisacks/assets/styles/layouts/_header.scss",
+		"/Users/elvis/Sites/HOPE/rabbisacks-site/wp-content/themes/rabbisacks/templates/content-search--.php",
+		"/Users/elvis/Sites/HOPE/rabbisacks-site/wp-content/themes/rabbisacks/page-landing-writing.php",
+		"/Users/elvis/Sites/HOPE/rabbisacks-site/wp-content/themes/rabbisacks/page-landing-conversation.php",
+		"/Users/elvis/Sites/HOPE/rabbisacks-site/wp-content/themes/rabbisacks/page-landing-book.php",
+		"/Users/elvis/Sites/HOPE/rabbisacks-site/wp-content/themes/rabbisacks/page-landing-audio.php",
+		"/Users/elvis/Sites/HOPE/rabbisacks-site/wp-content/themes/rabbisacks/template-custom.php",
+		"/Users/elvis/Sites/HOPE/rabbisacks-site/wp-content/themes/rabbisacks/templates/page-header.php",
+		"/Users/elvis/Sites/HOPE/rabbisacks-site/wp-content/themes/rabbisacks/assets/styles/layouts/_footer.scss",
+		"/Users/elvis/Sites/HOPE/rabbisacks-site/wp-content/themes/rabbisacks/assets/styles/layouts/_posts.scss",
+		"/Users/elvis/Sites/HOPE/rabbisacks-site/wp-content/themes/rabbisacks/index.php",
+		"/Users/elvis/Sites/HOPE/rabbisacks-site/wp-content/themes/rabbisacks/lib/extras.php",
+		"/Users/elvis/Sites/HOPE/rabbisacks-site/wp-content/themes/rabbisacks/templates/head.php",
+		"/Users/elvis/Sites/HOPE/rabbisacks-site/wp-content/themes/rabbisacks/404.php",
+		"/Users/elvis/Sites/HOPE/rabbisacks-site/wp-content/themes/rabbisacks/functions.php",
+		"/Users/elvis/Sites/HOPE/rabbisacks-site/wp-config.development.php",
+		"/Users/elvis/Sites/HOPE/migrate.sh",
+		"/Users/elvis/Sites/interview-tests/html-css/assets/css/main.css",
+		"/Users/elvis/Sites/interview-tests/html-css/index.html",
+		"/Users/elvis/Sites/laraboots/public/css/app.css",
+		"/Users/elvis/Sites/laraboots/composer.json",
+		"/Users/elvis/Sites/laraboots/config/app.php",
+		"/Users/elvis/Sites/laraboots/app/Http/Controllers/Auth/AuthController.php",
+		"/Users/elvis/Sites/laraboots/app/Providers/RouteServiceProvider.php",
+		"/Users/elvis/Sites/laraboots/resources/views/layouts/meta.blade.php",
+		"/Users/elvis/Sites/laraboots/database/migrations/2016_06_27_165156_create_widgets_table.php",
+		"/Users/elvis/Sites/laraboots/tests/ExampleTest.php",
+		"/Users/elvis/Sites/laraboots/tests/TestCase.php",
+		"/Users/elvis/Sites/laraboots/tests/WidgetTest.php",
+		"/Users/elvis/Sites/laraboots/public/index.php",
+		"/Users/elvis/Sites/laraboots/resources/views/auth/register.blade.php",
+		"/Users/elvis/Sites/laraboots/resources/views/layouts/css.blade.php",
+		"/Users/elvis/Sites/laraboots/resources/views/auth/login.blade.php",
+		"/Users/elvis/Sites/laraboots/server.php",
+		"/Users/elvis/Sites/laraboots/public/css/main.css",
+		"/Users/elvis/Sites/laraboots/config/mail.php",
+		"/Users/elvis/Sites/laraboots/.env",
+		"/Users/elvis/Sites/laraboots/storage/logs/laravel.log",
+		"/Users/elvis/Sites/laraboots/resources/views/auth/passwords/email.blade.php",
+		"/Users/elvis/Sites/laraboots/resources/views/auth/passwords/reset.blade.php",
+		"/Users/elvis/Sites/laraboots/database/seeds/DatabaseSeeder.php",
+		"/Users/elvis/Sites/laraboots/database/factories/ModelFactory.php",
+		"/Users/elvis/Sites/laraboots/app/Widget.php",
+		"/Users/elvis/Sites/laraboots/app/Http/Controllers/TestController.php",
+		"/Users/elvis/Sites/laraboots/vendor/laravel/framework/src/Illuminate/Routing/Route.php",
+		"/Users/elvis/Sites/laraboots/resources/views/pages/index.blade.php",
+		"/Users/elvis/Sites/laraboots/app/Http/Controllers/PagesController.php",
+		"/Users/elvis/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/elvis/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/elvis/Sites/laraboots/resources/views/layouts/nav.blade.php",
+		"/Users/elvis/Sites/laraboots/resources/views/layouts/scripts.blade.php",
+		"/Users/elvis/Sites/laraboots/resources/views/layouts/shim.blade.php",
+		"/Users/elvis/Sites/laraboots/resources/views/layouts/bottom.blade.php",
+		"/Users/elvis/Sites/laraboots/resources/views/test/index.blade.php",
+		"/Users/elvis/Sites/laraboots/resources/views/layouts/app.blade.php",
+		"/Users/elvis/Sites/laraboots/vendor/laravel/framework/src/Illuminate/Routing/Router.php",
+		"/Users/elvis/Sites/mikeyt/wp-content/themes/mikeysage/assets/styles/layouts/_header.scss",
+		"/Users/elvis/Sites/mikeyt/wp-content/themes/mikeysage/assets/styles/layouts/_footer.scss"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 164.0,
+		"where_history":
+		[
+			"/Users/elvis/Sites/laraboots"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"uglify",
+			"\"\" stateMode = \"ON\"",
+			"\"\" stateMode = \"ON\"\n",
+			"}\n",
+			"png",
+			"jpg",
+			"images",
+			"globs",
+			".js",
+			"E32F02",
+			"http://marketplace.envato.com/user/LGLab",
+			"999900",
+			"FF9900",
+			"999966",
+			"58798D",
+			"B12401",
+			"norway",
+			"norwar",
+			"\t\t\t.",
+			"&",
+			"Tool Type",
+			"Tool Types",
+			"tool_type",
+			"#",
+			"paths",
+			"raphael",
+			"paths",
+			"paths.js",
+			"container",
+			"icon",
+			"line",
+			"normal_thumb_vertical.png",
+			"html",
+			"illuminate/html",
+			"auth"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\"/region/\" stateMode = \"ON\"",
+			"0b8028",
+			"",
+			"0b8028",
+			"1da33f",
+			"\t\t\t&.",
+			".uk-overlay-panel ",
+			"Doc Type",
+			"Doc Types",
+			"sub_type"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "home.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4441,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 35.0
+	},
+	"input":
+	{
+		"height": 72.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "sh.sublime-project",
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"_hea",
+				"sdg-sageuikit/assets/styles/layouts/_header.scss"
+			],
+			[
+				"_var",
+				"sdg-sageuikit/assets/styles/common/_variables.scss"
+			],
+			[
+				"content",
+				"sdg-sageuikit/templates/content-page.php"
+			],
+			[
+				"_glo",
+				"sdg-sageuikit/assets/styles/common/_global.scss"
+			],
+			[
+				"_page",
+				"sdg-sageuikit/assets/styles/layouts/_pages.scss"
+			],
+			[
+				"_gl",
+				"sdg-sageuikit/assets/styles/common/_global.scss"
+			],
+			[
+				"content-pa",
+				"sdg-sageuikit/templates/content-page.php"
+			],
+			[
+				"mani",
+				"sdg-sageuikit/assets/manifest.json"
+			],
+			[
+				"setup",
+				"sdg-sageuikit/lib/setup.php"
+			],
+			[
+				"manifest",
+				"sdg-sageuikit/assets/manifest.json"
+			],
+			[
+				"global",
+				"sdg-sageuikit/assets/styles/common/_global.scss"
+			],
+			[
+				"set",
+				"sdg-sageuikit/lib/setup.php"
+			],
+			[
+				"init",
+				"sdg-sageuikit/bower_components/jquery/src/core/init.js"
+			],
+			[
+				"map-ini",
+				"sdg-sageuikit/assets/scripts/map-init.js"
+			],
+			[
+				"fun",
+				"sdg-sageuikit/functions.php"
+			],
+			[
+				"_header",
+				"sdg-sageuikit/assets/styles/layouts/_header.scss"
+			],
+			[
+				"funtion",
+				"sdg-sageuikit/functions.php"
+			],
+			[
+				"_footer",
+				"sdg-sageuikit/assets/styles/layouts/_footer.scss"
+			],
+			[
+				"_va",
+				"sdg-sageuikit/assets/styles/common/_variables.scss"
+			],
+			[
+				"_pag",
+				"sdg-sageuikit/assets/styles/layouts/_pages.scss"
+			],
+			[
+				"_pa",
+				"sdg-sageuikit/assets/styles/layouts/_pages.scss"
+			],
+			[
+				"setu",
+				"sdg-sageuikit/lib/setup.php"
+			],
+			[
+				"content-find",
+				"sdg-sageuikit/templates/content-page-find-tools-by-type.php"
+			],
+			[
+				"page",
+				"sdg-sageuikit/page.php"
+			],
+			[
+				"hea",
+				"sdg-sageuikit/templates/header.php"
+			],
+			[
+				"_he",
+				"sdg-sageuikit/assets/styles/layouts/_header.scss"
+			],
+			[
+				"_head",
+				"assets/styles/layouts/_header.scss"
+			],
+			[
+				"front",
+				"front-page.php"
+			],
+			[
+				"header",
+				"templates/header.php"
+			],
+			[
+				"content-b",
+				"templates/content-books.php"
+			],
+			[
+				"content-w",
+				"templates/content-writing.php"
+			],
+			[
+				"",
+				"templates/content-conversation.php"
+			],
+			[
+				"pages",
+				"assets/styles/layouts/_pages.scss"
+			],
+			[
+				"content-c",
+				"templates/content-conversation.php"
+			],
+			[
+				"_med",
+				"assets/styles/common/_media-query.scss"
+			],
+			[
+				"forms",
+				"assets/styles/components/_forms.scss"
+			],
+			[
+				"content-se",
+				"templates/content-search--.php"
+			],
+			[
+				"search",
+				"search.php"
+			],
+			[
+				"media",
+				"assets/styles/common/_media-query.scss"
+			],
+			[
+				"footer",
+				"templates/footer.php"
+			],
+			[
+				"content-si",
+				"templates/content-single-books.php"
+			],
+			[
+				"content-v",
+				"templates/content-video.php"
+			],
+			[
+				"cont",
+				"templates/content-conversation.php"
+			],
+			[
+				"page.",
+				"page.php"
+			],
+			[
+				"tit",
+				"lib/titles.php"
+			],
+			[
+				"title",
+				"lib/titles.php"
+			],
+			[
+				"page-hea",
+				"templates/page-header.php"
+			],
+			[
+				"sear",
+				"search.php"
+			],
+			[
+				"header.sc",
+				"assets/styles/layouts/_header.scss"
+			],
+			[
+				"datatable",
+				"resources/views/widget/datatable.blade.php"
+			],
+			[
+				"datatab",
+				"resources/views/widget/datatable.blade.php"
+			],
+			[
+				"css",
+				"resources/views/layouts/css.blade.php"
+			],
+			[
+				"wi",
+				"app/Widget.php"
+			],
+			[
+				"widget",
+				"app/Http/Controllers/WidgetController.php"
+			],
+			[
+				"app",
+				"config/app.php"
+			],
+			[
+				"composer",
+				"composer.json"
+			],
+			[
+				"routes",
+				"app/Http/routes.php"
+			],
+			[
+				"widgettest",
+				"tests/WidgetTest.php"
+			],
+			[
+				"testc",
+				"app/Http/Controllers/TestController.php"
+			],
+			[
+				"master",
+				"resources/views/layouts/master.blade.php"
+			],
+			[
+				"test",
+				"app/Http/Controllers/TestController.php"
+			],
+			[
+				"master.bl",
+				"resources/views/layouts/master.blade.php"
+			],
+			[
+				"scripts",
+				"resources/views/layouts/scripts.blade.php"
+			],
+			[
+				"app.",
+				"config/app.php"
+			],
+			[
+				"login",
+				"resources/views/auth/login.blade.php"
+			],
+			[
+				"register",
+				"resources/views/auth/register.blade.php"
+			],
+			[
+				"reset",
+				"resources/views/auth/passwords/reset.blade.php"
+			],
+			[
+				"email",
+				"resources/views/auth/passwords/email.blade.php"
+			],
+			[
+				"laravel.log",
+				"storage/logs/laravel.log"
+			],
+			[
+				"mail",
+				"config/mail.php"
+			],
+			[
+				"auth",
+				"app/Http/Controllers/Auth/AuthController.php"
+			],
+			[
+				"layout",
+				"resources/views/layouts/master.blade.php"
+			],
+			[
+				"index.",
+				"public/index.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 210.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
