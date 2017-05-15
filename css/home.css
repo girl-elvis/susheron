@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway');
 /*
 Theme Name: Susanna Heron
 Theme URI: http://susannaheron.com/
@@ -99,3 +98,18 @@ ul.left li, ul.right li {
 
 #menu-main-navigation{width: 350px; float: right;font-family: "P22 Underground", "p22-underground-sc",sans-serif;}
 #menu-main-navigation li {width: 170px; float: left;font-family: "P22 Underground", "p22-underground-sc",sans-serif;}
+
+
+
+
+
+@media (max-width: 600px) {
+	#home_name, #home_top_nav,#menu-main-navigation {
+	   float: none;
+	}
+	#home_name{padding-bottom: 0}
+	#home_top_nav{padding-top: 10px;}
+	#container {
+    min-width: unset;
+	}
+}

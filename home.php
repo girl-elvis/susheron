@@ -8,6 +8,9 @@ Template Name: Home Page
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
 <title>Susanna Heron</title>
 
 <?php
@@ -73,24 +76,9 @@ if( strpos( $backgroundImage,'/light/' ) !== false )
 <body>
 <div id="container">
 	<div id="home_name">
-		<a href="http://susannaheron.com/home/">SUSANNA HERON</a>
+		<a href="/">SUSANNA HERON</a>
 	</div>
 	<div id="home_top_nav">	
-<!-- 		<ul class="left">
-			<li><a href="http://susannaheron.com/relief/">Relief</a></li>
-			<li><a href="http://susannaheron.com/landscape/">Landscape</a></li>
-			<li><a href="http://susannaheron.com/photography/">Photography</a></li>
-			<li><a href="http://susannaheron.com/drawings/">Drawings</a></li>
-			<li><a href="http://susannaheron.com/exhibitions/">Exhibitions</a></li>
-		</ul>
-		<ul class="right">
-			<li><a href="http://susannaheron.com/photography-1978-83/">Photography 1978-83</a></li>
-			<li><a href="http://susannaheron.com/jewellery-1970-82/">Jewellery 1970-82</a></li>
-			<li><a href="http://susannaheron.com/writing/">Writing</a></li>
-			<li><a href="http://susannaheron.com/about/">About</a></li>
-			<li><a href="http://susannaheron.com/news/">News</a></li>
-		</ul> -->
-
 
 <?php
 wp_nav_menu( array(

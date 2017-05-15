@@ -37,7 +37,7 @@ p {
 }
 
 h1 {
-	font-family: "p22-underground-sc",sans-serif;
+	font-family: "P22 Underground", "p22-underground-sc",sans-serif;
 	text-transform: lowercase;
 	letter-spacing: 1px;
 	font-size: 15px !important;
@@ -106,7 +106,7 @@ a.current:link, a.current:active, a.current:visited, a.current:hover { color: #F
 	float: left;
 	padding: 30px;
 	font-size: 17px;
-	font-family: "p22-underground-sc",sans-serif;
+	font-family: "P22 Underground", "p22-underground-sc",sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	z-index: 15;
@@ -115,7 +115,7 @@ a.current:link, a.current:active, a.current:visited, a.current:hover { color: #F
 	float: right;
 	padding: 30px;
 	font-size: 15px;
-	font-family: "p22-underground-sc",sans-serif;
+	font-family: "P22 Underground", "p22-underground-sc",sans-serif;
 	text-transform: lowercase;
 	letter-spacing: 1px;
 	z-index: 15;
@@ -138,8 +138,8 @@ ul.left li, ul.right li {
 
 
 
-#menu-main-navigation{width: 350px; float: right;font-family: "p22-underground-sc",sans-serif;}
-#menu-main-navigation li {width: 170px; float: left;font-family: "p22-underground-sc",sans-serif;}
+#menu-main-navigation{width: 350px; float: right;font-family: "P22 Underground", "p22-underground-sc",sans-serif;}
+#menu-main-navigation li {width: 170px; float: left;font-family: "P22 Underground", "p22-underground-sc",sans-serif;}
 
 /****************************** HORIZONTAL LAYOUT ******************************/
 #page-wrap {
@@ -210,7 +210,7 @@ span.arrow {
 	width: 100px;
 }
 .colspan-2 {
-	font-family: "p22-underground-sc",sans-serif;
+	font-family: "P22 Underground", "p22-underground-sc",sans-serif;
 	text-transform: lowercase;
 	letter-spacing: 1px;
 	font-size: 15px !important;
@@ -325,7 +325,7 @@ input[type="submit"] {
 	text-transform: uppercase;
 	z-index: 50;
 	cursor: pointer;
-	font-family: "p22-underground-sc",sans-serif;
+	font-family: "P22 Underground", "p22-underground-sc",sans-serif;
 }
 input[type="submit"]:hover {
 	opacity: 1.0;
@@ -426,7 +426,7 @@ input[type="submit"]:hover {
 /****************************** NEWS ******************************/
 #news_preview { margin-right: 65px; }
 #news_preview a.read_more {
-	font-family: "p22-underground-sc",sans-serif;
+	font-family: "P22 Underground", "p22-underground-sc",sans-serif;
 	text-transform: lowercase;
 	letter-spacing: 1px;
 	text-decoration: underline;
@@ -524,8 +524,21 @@ input[type="submit"]:hover {
 	float: left;
 	margin-top: 3px;
 	font-size: 12px;
-	font-family: "p22-underground-sc",sans-serif;
+	font-family: "P22 Underground", "p22-underground-sc",sans-serif;
 	text-transform: lowercase;
 	letter-spacing: 1px;
 	color: #aaa;
+}
+@media (max-width: 600px) {
+	#hname, #top_nav,#menu-main-navigation {
+	   float: none;
+	}
+	#name{padding-bottom: 0}
+	#top_nav{padding-top: 10px;}
+	#container {
+	    min-width: unset;
+	}
+
+
+	.textwrap {    padding-left: 10px;}
 }
