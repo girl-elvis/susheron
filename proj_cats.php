@@ -23,13 +23,16 @@ Template Name: Project Category
 						<?php $event_date = get_post_meta($post->ID, 'DATE', true);
 						$location = get_post_meta($post->ID, 'LOCATION', true); ?>
 						<div class="titles">
-							<a href="<?php echo get_permalink( $page->ID ); ?>"><h1>
-								<?php 
+							<h1><?php 
 								$current = get_post_meta(get_the_ID(), 'status');
-								if($current) echo ('<span class="current">' . $current[0][0] . ' </span>');
+								
+								if($current[0][0]) echo ('<span class="current">' . $current[0][0] . ': </span>');		?>
+								
+							<a href="<?php echo get_permalink( $page->ID ); ?>">
+								<?php
 								if ($event_date) { 
 								echo $event_date; 
-								echo '&emsp;&emsp;';
+								echo '&emsp;';
 								} 
 								echo the_title(); 
 								if ($location) { 
@@ -37,7 +40,7 @@ Template Name: Project Category
 									echo $location;
 									echo '</span>';
 								} ?>
-							</h1></a>
+							</a></h1>
 						</div>
 						<div class="blank"><div class="loading"><img src="<?php bloginfo('template_url'); ?>/images/ajax-loader.gif"></div></div>
 						<div class="post_image">

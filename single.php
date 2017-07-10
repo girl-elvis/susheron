@@ -22,7 +22,11 @@
 					</h1>
 				</div>
 				<td>
-					<div class="news_article">
+					<div class="news_article"><?php if (has_post_thumbnail() ) { ?>
+						<div class="news_img">
+							<?php echo the_post_thumbnail('large'); ?>
+						</div>
+					<?php } ?>
 						<?php echo the_content(); ?>
 						<?php if ($projects) { ?>
 							<h1 style="margin-top: 10px;">related works</h1>
@@ -49,7 +53,7 @@
 					<?php } ?>
 				</td>
 				<?php endwhile; endif; ?>
-			</tr></table>
+			</tr></table>   <div class="morenews"><a href="/news/" class="news"><i class="fa fa-caret-left fa-fw"></i> More News</a></div>
 		</div>
 	<?php } else if(in_category('Selected Writing') OR in_category('Bibliography')) { // if in WRITING ?>
 		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
@@ -93,14 +97,15 @@
 		
 		<div class="blank"><div class="loading"><img src="<?php bloginfo('template_url'); ?>/images/ajax-loader.gif"></div></div>
 		<div id="page-wrap">
-<div class="single_titles solid">
+<div class="single_titles">
 						<h1>
 						<?php
+								$event_date = get_post_meta($post->ID, 'DATE', true);
 								$current = get_post_meta(get_the_ID(), 'status');
-								if($current) echo ('<span class="current">' . $current[0][0] . ' </span>');
+								if($current[0][0]) echo ('<span class="current">' . $current[0][0] . ': </span>');
 							 if ($event_date) { 
 								echo $event_date; 
-								echo '&emsp;&emsp;';
+								echo '&emsp;';
 							} 
 							echo the_title(); 
 							if ($location) { 
@@ -216,7 +221,6 @@
 				<?php } } ?>
 			</div>
 		</div>
-
 		</div>
 	<?php } ?>
 
