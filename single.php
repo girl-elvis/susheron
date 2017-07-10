@@ -7,7 +7,7 @@
 				$event_date = get_post_meta($post->ID, 'DATE', true);
 				$location = get_post_meta($post->ID, 'LOCATION', true);
 				$projects = get_post_meta($post->ID, 'RELATED', false); // check for related projects ?>
-				<div class="single_titles">	
+				<div class="news_titles">	
 					<h1>
 						<?php if ($event_date) { 
 							echo $event_date; 
@@ -38,7 +38,7 @@
 								$project_id = $rel_posts[0]->ID; // get project ID
 								$proj_cat = get_the_category($project_id); // get related post category
 								//echo $project_id.', ',$proj_cat[0]->slug; ?>
-								<li class="related"><a href="http://susannaheron.com/<?php if($proj_cat) { echo $proj_cat[0]->slug.'/'; } ?><?php echo $project; ?>"><?php echo get_the_title($project_id); ?></a></li>
+								<li class="related"><a href="/<?php if($proj_cat) { echo $proj_cat[0]->slug.'/'; } ?><?php echo $project; ?>"><?php echo get_the_title($project_id); ?></a></li>
 							<?php endforeach;
 						} ?>
 					</div>
@@ -90,53 +90,15 @@
 		</div>
 	
 	<?php } else { // all other categories ?>
-		<div class="panel clear">
-			<a class="trigger" href="javascript:toggleAndChangeText();"><h1><span class="arrow"><i class="fa fa-caret-left fa-fw"></i></span>info</h1></a>
-			<div class="info">
-				<?php $content = the_content(); echo apply_filters('the_content', $content); 
-				$projects = get_post_meta($post->ID, 'RELATED', false); // check for related projects
-				if ($projects) { ?>
-					<h1 style="margin-top: 10px;">related works</h1>
-					<?php foreach ($projects as $project) : // $project == post title SLUG
-						$args=array(
-						  'name' => $project,
-						  'post_type' => 'post',
-						  'post_status' => 'publish',
-						  'showposts' => 1,
-						  'caller_get_posts'=> 1
-						);
-						$rel_posts = get_posts($args);
-						$project_id = $rel_posts[0]->ID; // get project ID
-						$proj_cat = get_the_category($project_id); // get related post category
-						//echo $project_id.', ',$proj_cat[0]->slug; ?>
-						<li class="related"><a href="http://susannaheron.com/<?php if($proj_cat) { echo $proj_cat[0]->slug.'/'; } ?><?php echo $project; ?>"><?php echo get_the_title($project_id); ?></a></li>
-					<?php endforeach;
-				} ?>
-				<?php // display link to PDF 
-				$args = array(
-					'post_type' => 'attachment',
-					'numberposts' => -1,
-					'post_status' => null,
-					'post_parent' => $post->ID,
-					'post_mime_type' => 'application/pdf',
-				);
-				$PDFs = get_posts( $args );
-				if ( $PDFs ) { ?>
-					<h1 style="margin-top: 20px;">more info</h1>
-					<?php foreach ( $PDFs as $PDF ) { ?>
-						<li class="pdf"><a class="fancypdf" style="padding-top: 20px;"  href="http://docs.google.com/gview?url=<?php echo wp_get_attachment_url( $PDF->ID ); ?>&embedded=true"><?php echo $PDF->post_title; ?></a></li>
-				<?php } } ?>
-			</div>
-		</div>
+		
 		<div class="blank"><div class="loading"><img src="<?php bloginfo('template_url'); ?>/images/ajax-loader.gif"></div></div>
 		<div id="page-wrap">
-			<table><tr>
-			<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); 
-				$event_date = get_post_meta($post->ID, 'DATE', true);
-				$location = get_post_meta($post->ID, 'LOCATION', true); ?>
-					<div class="single_titles">
+<div class="single_titles solid">
 						<h1>
-							<?php if ($event_date) { 
+						<?php
+								$current = get_post_meta(get_the_ID(), 'status');
+								if($current) echo ('<span class="current">' . $current[0][0] . ' </span>');
+							 if ($event_date) { 
 								echo $event_date; 
 								echo '&emsp;&emsp;';
 							} 
@@ -148,6 +110,16 @@
 							} ?>
 						</h1>
 					</div>
+
+			<table>
+	
+
+		
+			<tr>
+			<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); 
+				$event_date = get_post_meta($post->ID, 'DATE', true);
+				$location = get_post_meta($post->ID, 'LOCATION', true); ?>
+					
 				
 				<?php if(in_category('video')) { // if in video category ?> 
 					<?php $video = get_post_meta($post->ID, 'VIDEO', true); ?>
@@ -155,8 +127,14 @@
 						echo "<iframe class=\"video\" src=\"http://player.vimeo.com/video/".$video."?color=dddddd\" frameborder=\"0\" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>";
 					} 
 				} else { // all other categories ?>
-					
-					<?php // show images from post gallery
+					<!-- if video, show it first. -->
+					<?php
+					$video = get_post_meta(get_the_ID(), 'videolink');
+					if($video) {
+						 echo "<td><iframe class=\"video\" src=\"http://player.vimeo.com/video/".$video[0]."?color=dddddd\" frameborder=\"0\" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></td>";
+					}
+
+					 // show images from post gallery
 					$args = array(
 						'post_type' 	=> 'attachment',
 						'numberposts' 	=> -1,
@@ -200,6 +178,45 @@
 				}
 				endwhile; endif; ?>
 			</tr></table>
+<div class="panel color">
+			<a class="trigger close" href="javascript:toggleAndChangeText();"><h1><span class="arrow"><i class="fa fa-caret-right fa-fw"></i></span>hide info</h1></a>
+			<div class="info">
+				<?php $content = the_content(); echo apply_filters('the_content', $content); 
+				$projects = get_post_meta($post->ID, 'RELATED', false); // check for related projects
+				if ($projects) { ?>
+					<h1 style="margin-top: 10px;">related works</h1>
+					<?php foreach ($projects as $project) : // $project == post title SLUG
+						$args=array(
+						  'name' => $project,
+						  'post_type' => 'post',
+						  'post_status' => 'publish',
+						  'showposts' => 1,
+						  'caller_get_posts'=> 1
+						);
+						$rel_posts = get_posts($args);
+						$project_id = $rel_posts[0]->ID; // get project ID
+						$proj_cat = get_the_category($project_id); // get related post category
+						//echo $project_id.', ',$proj_cat[0]->slug; ?>
+						<li class="related"><a href="/<?php if($proj_cat) { echo $proj_cat[0]->slug.'/'; } ?><?php echo $project; ?>"><?php echo get_the_title($project_id); ?></a></li>
+					<?php endforeach;
+				} ?>
+				<?php // display link to PDF 
+				$args = array(
+					'post_type' => 'attachment',
+					'numberposts' => -1,
+					'post_status' => null,
+					'post_parent' => $post->ID,
+					'post_mime_type' => 'application/pdf',
+				);
+				$PDFs = get_posts( $args );
+				if ( $PDFs ) { ?>
+					<h1 style="margin-top: 20px;">more info</h1>
+					<?php foreach ( $PDFs as $PDF ) { ?>
+						<li class="pdf"><a class="fancypdf" style="padding-top: 20px;"  href="http://docs.google.com/gview?url=<?php echo wp_get_attachment_url( $PDF->ID ); ?>&embedded=true"><?php echo $PDF->post_title; ?></a></li>
+				<?php } } ?>
+			</div>
+		</div>
+
 		</div>
 	<?php } ?>
 

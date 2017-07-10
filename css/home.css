@@ -100,16 +100,46 @@ ul.left li, ul.right li {
 #menu-main-navigation li {width: 170px; float: left;font-family: "P22 Underground", "p22-underground-sc",sans-serif;}
 
 
+.homenews {
+position: relative;
+float: left;
+padding-top: 190px;
+padding-left: 100px;
+ 
+    font-family: "P22 Underground", "p22-underground-sc",sans-serif;
+      text-transform: lowercase; 
+    opacity: 0.8;
 
+}
+.homenews h3 a{
+	
+}
 
 
 @media (max-width: 600px) {
-	#home_name, #home_top_nav,#menu-main-navigation {
-	   float: none;
+	#home_name, 
+	#name,
+	#home_top_nav,
+	#menu-main-navigation {
+	   float: none; 
+	   width: 100%
 	}
 	#home_name{padding-bottom: 0}
-	#home_top_nav{padding-top: 10px;}
+	#home_top_nav{
+		     width: 100%;
+	    padding: 10px 30px;
+	    box-sizing: border-box;
+	}
+
+	#menu-main-navigation li {width: 50%;}
 	#container {
     min-width: unset;
 	}
+	.homenews {
+		padding-left: 30px;
+	}
 }
+
+
+
+

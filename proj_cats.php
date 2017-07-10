@@ -24,7 +24,10 @@ Template Name: Project Category
 						$location = get_post_meta($post->ID, 'LOCATION', true); ?>
 						<div class="titles">
 							<a href="<?php echo get_permalink( $page->ID ); ?>"><h1>
-								<?php if ($event_date) { 
+								<?php 
+								$current = get_post_meta(get_the_ID(), 'status');
+								if($current) echo ('<span class="current">' . $current[0][0] . ' </span>');
+								if ($event_date) { 
 								echo $event_date; 
 								echo '&emsp;&emsp;';
 								} 

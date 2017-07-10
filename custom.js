@@ -1,6 +1,6 @@
 $(document).ready(function () {
 	// hide info panel
-	$('.info').hide();
+	// $('.info').hide();
 	// hide about panel
 	$('.about_pdf').hide();
 	// Hide images
@@ -9,7 +9,7 @@ $(document).ready(function () {
 
 	// Image overlay
 	var url = document.location.href;
-	if (url == 'http://susannaheron.com/video/') {
+	if (url == 'video/') {
         $('#overlay span').bind('mouseover', function () {
             $(this).parent('li').css({position: 'relative'});
             var img = $(this).children('img');

@@ -5,7 +5,7 @@ Template Name: News
 ?>
 <?php get_header(); ?>
 <div id="page-wrap">
-	<table><tr>
+	<div><div>
 	<?php
 	$newsID = get_category_by_slug('news')->term_id;
 	$postslist = get_posts('category='.$newsID.'&numberposts=-1&order=DESC&orderby=post_date&post_type=post');
@@ -16,7 +16,7 @@ Template Name: News
 		$location = get_post_meta($post->ID, 'LOCATION', true);
 		$projects = get_post_meta($post->ID, 'RELATED', false); // check for related projects
 		if (has_post_thumbnail() ) { ?>
-			<td>
+			<div>
 				<div id="news_preview">
 					<div class="news_titles">
 						<a href="<?php echo get_permalink( $page->ID ); ?>"><h1>
@@ -57,9 +57,9 @@ Template Name: News
 						<?php endforeach;
 					} ?>
 				</div>
-			</td>
+			</div>
 		<?php } else { ?>
-			<td>	
+			<div>	
 				<div id="news_preview">
 					<div class="news_titles">
 						<a href="<?php echo get_permalink( $page->ID ); ?>"><h1>
@@ -95,9 +95,9 @@ Template Name: News
 						<?php endforeach;
 					} ?>
 				</div>
-			</td>
+			</div>
 		<?php } 
 	endforeach; ?>
-	</tr></table>
+	</div></div>
 </div>
 <?php get_footer(); ?>

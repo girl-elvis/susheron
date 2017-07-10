@@ -21,7 +21,7 @@
 <!--END WP generated header-->
 
 </head>
-<body>
+<body <?php body_class(); ?> >
 <div id="wrapper">
 <div id="bar"></div>
 <div id="container">
@@ -30,19 +30,13 @@
 	</div>
 	<div id="top_nav">
 		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-		
-			<?php
-wp_nav_menu( array(
-    'menu' => 'Main Navigation'
-) );
-?>
+						<?php
+			wp_nav_menu( array(
+			    'menu' => 'Main Navigation'
+			) );
+			?>
 
-			<ul class="left">
-			      <?php echo $pageLeft; ?>
-			</ul>
-			<ul class="right">
-			      <?php echo $pageRight; ?>
-			</ul>
+
 		<?php endwhile; else: ?>
 		<p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
 		<?php endif; ?>

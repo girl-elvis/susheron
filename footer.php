@@ -25,7 +25,7 @@ function toggleAndChangeText() {
 		$('.panel').removeClass('color').addClass('clear');
 	}
 	else { // if panel is visible, show "info>" with opaque bg
-		$('.trigger').html('<h1>info<span class="arrow"><i class="fa fa-caret-right fa-fw"></i></span></h1>').removeClass('open').addClass('close');
+		$('.trigger').html('<h1>hide info<span class="arrow"><i class="fa fa-caret-right fa-fw"></i></span></h1>').removeClass('open').addClass('close');
 		$('.panel').removeClass('clear').addClass('color');
 	}
 }
